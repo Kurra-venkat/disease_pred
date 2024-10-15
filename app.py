@@ -5,8 +5,8 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 import os
 
-train_data_path = "templates/Training.csv"
-test_data_path = "templates/Testing.csv"
+train_data_path = "Training.csv"
+test_data_path = "Testing.csv"
 
 # Load training data
 df = pd.read_csv(train_data_path)
